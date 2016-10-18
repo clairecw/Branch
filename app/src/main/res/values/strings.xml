@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Branch</string>
+    <string name="action_settings">Settings</string>
+
+
+    <color name="lightBlue">#A1B9D5</color>
+    <color name="darkBlue">#1C376C</color>
+    <color name="blue">#2F5BB5</color>
+    <color name="orange">#DE6B48</color>
+    <color name="darkOrange">#9E3014</color>
+
+    <item name="skyBlue" type="color">#33B5E5</item>
+    <item name="purple" type="color">#AA66CC</item>
+    <item name="green" type="color">#99CC00</item>
+    <item name="lightOrange" type="color">#FFBB33</item>
+    <item name="red" type="color">#E2485A</item>
+
+</resources>

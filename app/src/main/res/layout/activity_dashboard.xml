@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="clairecw.roots.Dashboard"
+    android:background="#888">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:text="Forms &amp; Legal"
+            android:textSize="40dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:text="Housing" />
+
+            <Button
+
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.33"
+                android:textSize="40dp"
+                android:textColor="#fff"
+                android:text="Locations" />
+
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/refresh"
+        android:background="@null"
+        android:id="@+id/refresh"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+</RelativeLayout>
